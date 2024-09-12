@@ -1,0 +1,89 @@
+body{
+    background-color: #003935;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 40%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(38, 35, 35);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 6px 0;
+}
+footer .ft{
+    font-size: 30px;
+    color: white;
+}
+.foot a{
+    text-decoration: none;
+}
+.foot p{
+    color: white;
+    margin-top: 0px;
+}
+.foot{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#dot-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: move 10s infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(calc(100vw - 10px), calc(100vh - 10px));
+    }
+}
+
+
+.back-button {
+    padding: 6px 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 4px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}

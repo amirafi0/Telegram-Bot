@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Main</title>
+</head>
+<body>
+
+<header>
+    <!-- <h4>Token Distribution Time</h4>
+    <h3>00:00:00</h3> -->
+    <div class="countdown-container">
+        <h4>Token Distribution Time</h4>
+        <div id="countdown">
+            <span id="days"></span>:
+            <span id="hours"></span>:
+            <span id="minutes"></span>:
+            <span id="seconds"></span>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <div class="boost" onclick="bst()">
+        <img src="./img/rocket.png" > 
+        <p>Boost</p>
+    </div>
+    <div class="upgrade" onclick="bst()">
+        <img src="./img/high-voltage.png">
+        <p>Upgrade</p>
+    </div>
+</nav>
+
+<div class="balance">
+    <h2 class="bal" id="show"></h2>
+</div>
+
+
+<div class="logo">
+    <img src="./img/coin.png " class="log" id="increase_button">
+</div>
+
+
+<div class="energy">
+    <div class="energy-l">
+        <i class='bx bxs-bolt bolt'></i>
+        <p onclick="bst()">5000/5000</p>
+    </div>
+    <div class="energy-r">
+        <i class='bx bxs-rocket roc'></i>
+        <a href="../earn/index.html">Boost Mine</a>
+    </div>
+</div>
+
+<footer class="foot">
+
+    <a class="mine" href="./main/index.html">
+        <i class='bx bxs-battery-charging ft'></i>
+        <p>Mine</p>
+    </a>
+    <a class="earn" href="./earn/index.html">
+        <i class='bx bx-coin ft'></i>
+        <p>Earn</p >
+    </a>
+    <a class="friends" href="./friend/index.html">
+        <i class='bx bx-group ft'></i>
+        <p>Friends</p>
+    </a>
+    <a class="wallet" href="./wallet/index.html">
+        <i class='bx bx-wallet ft'></i>
+        <p>Wallet</p>
+    </a>
+</footer>
+
+    
+    <script src="script.js">
+      
+    </script>
+</body>
+</html>

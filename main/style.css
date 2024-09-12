@@ -1,0 +1,153 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: #003935;
+    height: 100vh;
+    user-select: none;
+}
+header{
+    padding: 10px;
+    color: white;
+    background-color: #3d6d73;
+   
+}
+header .countdown-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .countdown-container h4{
+    color: gold;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+   
+}
+nav div{
+    width: 48%;
+    background-color: #b7bb98;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+nav div p{
+  font-size:20px;
+  color:white;
+  margin-left:8px;
+}
+nav div img{
+    width: 15%;
+    margin-left: 15%;
+}
+.balance{
+    margin-top: 50px;
+}
+.balance img{
+    height: 40px;
+}
+.balance h2{
+    text-align: center;
+    color: rgb(253, 208, 7);
+    font-size: 50px;
+}
+.logo{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.logo img{
+   display: block;
+   margin: auto;
+   width:250px;
+}
+.log{
+  transition: all 0.2s ease;
+}
+.log:hover{
+  transform: rotateY(20deg);
+}
+.energy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    right: 20px;
+}
+.energy .energy-l{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+}
+.energy .energy-l .bolt{
+    margin-right: 8px;
+    color: rgb(18, 195, 18);
+    font-size: 23px;
+}
+.energy .energy-r{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 10px;
+}
+.energy-r a{
+    text-decoration: none;
+    color: white;
+}
+.energy .energy-r .roc{
+    margin-right: 10px;
+    color: rgb(223, 209, 14);
+    font-size: 23px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(38, 35, 35);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0;
+}
+footer .ft{
+    font-size: 30px;
+    color: white;
+}
+.foot a{
+    text-decoration: none;
+}
+.foot p{
+    color: white;
+}
+.foot{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+.back-button {
+    padding: 6px 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 4px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,116 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color:  #003935;
+    color: white;
+    user-select: none;  
+}
+h2{
+    color: rgb(193, 38, 69);
+    text-align: center;
+    margin-top: 12%;
+}
+.booster{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.n{
+    text-align: center;
+}
+.booster div{
+    background-color: rgb(89, 89, 84);
+    padding: 12px 35px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ................booster.............. */
+
+.option{
+    display: grid;  
+    width: 95%;
+    margin: 10px;
+    
+}
+.part{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: rgb(69, 71, 72);
+    padding: 6px;
+    border-radius: 10px;
+}
+.part .pic{
+   margin-right: 12px;
+}
+.part .bot{
+    font-size: 40px;
+}
+.pic img{
+    height: 40px;
+    border-right: 1px solid black;
+    padding: 6px;
+}
+
+
+
+
+
+
+/* ......... */
+
+
+.back-button {
+    padding: 6px 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 4px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(38, 35, 35);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0;
+}
+footer .ft{
+    font-size: 30px;
+    color: white;
+}
+.foot a{
+    text-decoration: none;
+}
+.foot p{
+    color: white;
+}
+.foot{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
